@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_products">
+        <item>Add an item to budget</item>
+        <item>Add a new category</item>
+        <item>View your budget</item>
+    </string-array>
+</resources>

@@ -1,0 +1,84 @@
+<!--  NOT used right now due to the list that is displayed instead -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    tools:context=".MainActivity" >
+
+  	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+	    <TextView
+	        android:id="@+id/welcomeTextView"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="@string/welcome"
+	        android:textSize="22sp" />
+	</LinearLayout>
+	
+ 	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+	    <Button
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:onClick="addExpense"
+	        android:text="@string/button_add" />
+	    <Button 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:onClick="viewExpenses"
+	        android:text="@string/button_view" />
+	    <Button 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:onClick="addType"
+	        android:text="@string/button_addType"/>
+	    <Button
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:onClick="viewList"
+	        android:text="@string/button_viewList"/>
+ 	</LinearLayout>
+ 	
+ 	 <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+		<TextView
+		    android:id="@+id/income"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textColor="#008000"
+		    android:textSize="36sp"
+		    android:textStyle="bold|italic"
+		    android:layout_weight="1"
+		    android:gravity="center"
+		/>
+	    <TextView
+		    android:id="@+id/expenses"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textColor="#FF0000"
+		    android:textSize="36sp"
+		    android:textStyle="bold|italic"
+		    android:layout_weight="1"
+		    android:gravity="center"
+		/>
+	 </LinearLayout>
+	 
+ 	 <LinearLayout
+ 	   	android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+ 	 	<TextView
+	        android:id="@+id/bottomline"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	   	/>
+	</LinearLayout>
+ 	 
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BudgetApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="cExpenseType">Category?</string>
+    <string name="cAmount">Amount</string>
+    <string name="help_text">Enter your expense:</string>
+    <string name="button_text">+</string>
+    <string name="cDate">Pick Date</string>
+    <string name="displayDate">mm/dd/yyyy</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_addExpense">AddToBudgetActivity</string>
+    <string name="title_activity_addType">AddTypeActivity</string>
+    <string name="button_add">Add Expense</string>
+    <string name="button_viewList">View List</string>
+    <string name="welcome">Welcome Screen</string>
+    <string name="button_view">View Expenses</string>
+    <string name="title_activity_view_expenses">ViewBudgetActivity</string>
+    <string name="spinner_title">select one</string>
+    <string name="spinner_hint">Category..</string>
+    <string name="button_addType">Add Type</string>
+    <string name="expense_type">Enter type</string>
+    <string name="description">Item description</string>
+    <string name="title_activity_list_view">ListViewActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="no_items">No items exist</string>
+    <string name="expense">Expense?</string>
+
+</resources>

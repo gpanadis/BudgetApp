@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".AddToBudgetActivity" 
+    >	
+        
+		    <EditText
+		        android:id="@+id/description"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="@string/description"
+		        android:imeActionLabel="Done" />
+
+			<Spinner
+			    android:id="@+id/spinner"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:hint="@string/spinner_hint"
+			    android:prompt="@string/spinner_title" />
+		    
+		    <EditText
+		        android:id="@+id/cAmount"
+		        android:hint="@string/cAmount"
+		        android:inputType="phone"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content" 
+		        android:imeActionLabel="Done"
+		        />
+
+		    <Button
+		        android:id="@+id/cDate"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:onClick="showDatePickerDialog"
+		        android:text="@string/cDate" />
+
+		    <CheckBox
+		        android:id="@+id/expenseCheckBox"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/expense" />
+
+			<Button
+			    android:id="@+id/submitButton"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_gravity="top"
+			    android:text="@string/button_text"
+			    />
+			<TextView 
+			    android:id="@+id/textViewDate"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"	    
+			    android:hint="@string/displayDate"
+			    android:visibility="invisible"
+			    />		  	
+
+	    
+
+		
+		
+</LinearLayout>
